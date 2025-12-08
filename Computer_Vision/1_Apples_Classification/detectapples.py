@@ -3,7 +3,6 @@ from ultralytics import YOLO
 import streamlit as st
 import tempfile
 import os
-import matplotlib.pyplot as plt
 
 # Set Page Configuration
 st.set_page_config(
