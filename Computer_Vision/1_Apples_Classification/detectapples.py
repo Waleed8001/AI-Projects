@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 import PIL
-# import cv2
+import cv2
 import streamlit as st
 import tempfile
 import os
