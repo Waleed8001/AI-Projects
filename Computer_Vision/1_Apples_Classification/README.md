@@ -1,6 +1,6 @@
 # 🍎 Apple Quality Detection – YOLOv8m
 
-A computer vision system built using Ultralytics YOLOv8n to classify apples into four quality categories:
+A computer vision system built using Ultralytics, train images using Roboflow on YOLOv8m to classify apples into four quality categories:
 - Red Apple
 - Green Apple
 - Used Apple
@@ -8,12 +8,12 @@ A computer vision system built using Ultralytics YOLOv8n to classify apples into
 
 ### 🚀 Project Overview
 
-This project aims to automate fruit quality inspection using a lightweight YOLOv8 model. The system can run efficiently even on low-resource devices while maintaining strong detection accuracy.
+This project aims to automate fruit quality inspection using a lightweight custom model trained on YOLOv8 model. The system can run efficiently even on low-resource devices while maintaining strong detection accuracy.
 
 The model is trained on a custom dataset and deployed with a Streamlit web interface for easy testing.
 
 ### 🧠 Features
-- Custom object detection model using YOLOv8n
+- Custom object detection model using custom model trained on YOLOv8m.
 - Detects 4 apple categories in images or video
 - Real-time inference using webcam
 - Clean and interactive Streamlit UI
@@ -28,6 +28,7 @@ The model is trained on a custom dataset and deployed with a Streamlit web inter
 
 🛠️ Technologies Used
 - Python
+- Roboflow
 - Ultralytics YOLOv8
 - OpenCV
 - Streamlit
@@ -35,7 +36,7 @@ The model is trained on a custom dataset and deployed with a Streamlit web inter
 ### ▶️ Run the Project
 1. Install packages
 ```bash
-pip install ultralytics streamlit opencv-python
+pip install roboflow ultralytics streamlit opencv-python
 ```
 
 3. Run Streamlit app
@@ -45,7 +46,7 @@ streamlit run app.py
 
 ### 🤖 Training the Model
 ```bash
-yolo train model=yolov8n.pt data=data.yaml epochs=100 imgsz=640
+yolo task=detect mode=train model=yolov8m.pt data=data.yaml epochs=100 imgsz=640
 ```
 
 ### ⭐ Contribute
