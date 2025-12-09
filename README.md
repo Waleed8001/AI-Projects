@@ -3,7 +3,7 @@
 # 🤖 AI Projects Repository
 
 Welcome to my **Artificial Intelligence Projects Repository**!  
-This collection contains various projects built using **Machine Learning**, **Deep Learning**, and **Computer Vision**, focusing on solving real-world problems with modern AI techniques.
+This collection contains various projects built using **Machine Learning**, **Deep Learning**, **Computer Vision** and **Natural Language Processing** , focusing on solving real-world problems with modern AI techniques.
 
 ---
 
