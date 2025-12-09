@@ -52,4 +52,4 @@ Pull requests and suggestions are welcome!
 ### 📬 Contact
 
 For queries or collaboration:
-Muhammad Waleed Kamal – [LinkedIn Link](www.linkedin.com/in/muhammad-waleed-kamal-3910422b3)
+Muhammad Waleed Kamal – [LinkedIn Link](https://www.linkedin.com/in/muhammad-waleed-kamal-3910422b3/)
