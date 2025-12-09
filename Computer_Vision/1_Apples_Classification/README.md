@@ -21,7 +21,9 @@ The model is trained on a custom dataset and deployed with a Streamlit web inter
 
 ### 📸 Demo
 
-(Add your Streamlit link or screenshots here)
+<img width="277" height="182" alt="Detected Image 1" src="https://github.com/user-attachments/assets/75b932a8-e2ad-40e5-983f-7eed176e3281" />
+<img width="277" height="122" alt="Detected Image 2" src="https://github.com/user-attachments/assets/7086d147-b9a7-41c4-ae76-91f988aad10d" />
+
 
 🛠️ Technologies Used
 - Python
@@ -52,4 +54,4 @@ Pull requests and suggestions are welcome!
 ### 📬 Contact
 
 For queries or collaboration:
-Muhammad Waleed Kamal – [LinkedIn Link](https://www.linkedin.com/in/muhammad-waleed-kamal-3910422b3/)
+Muhammad Waleed Kamal – [LinkedIn Profile](https://www.linkedin.com/in/muhammad-waleed-kamal-3910422b3/)
