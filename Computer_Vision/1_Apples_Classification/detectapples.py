@@ -1,5 +1,4 @@
 from ultralytics import YOLO
-import PIL
 import cv2
 import streamlit as st
 import tempfile
@@ -30,9 +29,7 @@ with cola:
 The app offers a smooth experience where users can effortlessly ✨ upload images or 🎥 use their webcam for real-time detection, while automatically displaying 🔲 bounding boxes and 📊 confidence scores on the results. Built using powerful technologies like Ultralytics YOLOv8n, Streamlit, OpenCV, and Python, the system is optimized to run ⚡ efficiently even on low-spec devices. With its clean UI and fast inference, this web app makes it easy to explore, test, and visualize apple quality directly from your browser. 🍏🚀''')
     
 with colb:
-    # path = os.path.join(os.path.dirname(__file__), "buspic.jpg")
-    img = PIL.Image.open("buspic.jpg")
-    st.image(img)
+    st.image("buspic.jpg")
     
 # For Upload Images from Streamlit UI.
 apple_image = st.file_uploader(
